@@ -1,0 +1,109 @@
+.header {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.header img {
+  position: absolute;
+  top: 42px;
+  bottom: 0;
+  left: 1200px;
+  right: 0;
+}
+
+.phone-container {
+  display: inline-block;
+  margin: 0;
+  border: 0;
+  display: block;
+  height: 100vh;
+}
+
+.comment-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1200px;
+  right: 0;
+  display: inline-block;
+  width: 30%;
+  height: 85vh;
+  margin-top: 120px;
+}
+.comments {
+  text-align: center;
+  padding: 30px;
+}
+.comments-header {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.languageFlag {
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+}
+
+ul li {
+  text-align: center;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  width: 10%;
+  height: 20%;
+  margin: 0;
+}
+
+th {
+  font-size: 2rem;
+}
+
+table.phones {
+  top: 100px;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+.phone-image {
+  width: 150px;
+  height: 150px;
+}
+
+.accessed {
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  top: 97vh;
+  bottom: 0;
+  right: 0;
+  left: 66vh;
+}
+
+th a {
+  color: black;
+}
+
+.hideImage {
+  visibility: hidden;
+}

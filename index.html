@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smartphone Store</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title" id="page-title">
+        Smartphone Store
+      </h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png"
+        onclick="changeTitle()"
+        class="languageFlag"
+      />
+    </div>
+    <div class="phone-container">
+      <table class="phones">
+        <th>Phone</th>
+        <th><a href="#" onclick="priceColor()">Images</a></th>
+        <th>Description</th>
+        <th>
+          <a href="#" onclick="largeLinks()">Purchase</a>
+        </th>
+        <th><a href="#" onclick="showImage()">Images</a></th>
+        <tr>
+          <td>iPhone 14</td>
+          <td class="price">£1059</td>
+          <td>Apple iPhone 14 plus (256GB)</td>
+          <td>
+            <a id="links" href="http://shorturl.at/wBR08">
+              Amazon Link
+            </a>
+            <br />
+          </td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/61b7Ew7kjYL._AC_SL1500_.jpg"
+              class="phone-image"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Google Pixel 7 Pro</td>
+          <td class="price">£849</td>
+          <td>Google Pixel 7 Pro with 128GB inbuilt memory</td>
+          <td><a href="http://shorturl.at/MPRT8">Amazon Link</a></td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/711GOHSF5wL._AC_SL1500_.jpg"
+              class="phone-image"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Sony Xperia 5</td>
+          <td class="price">£949</td>
+          <td>
+            Sony Xperia 5 IV with free LinkBuds S (black) Limited time Bundle
+          </td>
+          <td><a href="http://shorturl.at/KQVW4">Amazon Link</a></td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/71bgXyOeDyL._AC_SL1500_.jpg"
+              class="phone-image"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy Z Fold4</td>
+          <td class="price">£1769</td>
+          <td>
+            Samsung Galaxy Z Fold4 5G Mobile Phone Sim Free Android Folding
+            Smartphone 512GB, Beige, 3 Year Manufacturer Warranty, UK Version
+          </td>
+          <td><a href="http://shorturl.at/hktCE">Amazon Link</a></td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/71HyNLk2OGL._AC_SL1500_.jpg"
+              class="phone-image"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Xiaomi Redmi Note 11</td>
+          <td class="price">£179</td>
+          <td>
+            Xiaomi Redmi Note 11 - Smartphone 4+128GB, 6.43” 90Hz FHD+ Amoled
+            Dotdisplay, Snapdragon 680, 50MP AI Quad Camera, 5000mAh, Twilight
+            Blue (UK Version + 2 Years Warranty) with Alexa Hands-Free
+          </td>
+          <td><a href="http://shorturl.at/bhsKO">Amazon Link</a></td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/51-pDF-OlPL._AC_SL1001_.jpg"
+              class="phone-image"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="comment-container">
+      <fieldset class="comments">
+        Submit your comments here:
+        <input type="text" name="comments" />
+        <input type="submit" value="Add comment" />
+      </fieldset>
+      <h2 class="comments-header">Most recent comments</h2>
+      <ul>
+        <li>Your store looks great, the phones are such good value too!</li>
+        <li>Do you have any iPhone 13's in stock?</li>
+        <li>What different colours iPhone do you have?</li>
+        <li>Does the Samsung Fold break easily?</li>
+      </ul>
+    </div>
+
+    <footer>
+      <span id="address">
+        Shop owned by Daniel Earp and is based in Coventry, United Kingdom
+      </span>
+      <a href="#" onclick="toggleFooter()">Show real address</a>
+    </footer>
+    <script src="js.js"></script>
+  </body>
+</html>
