@@ -2,8 +2,9 @@ function changeTitle() {
   document.getElementById('page-title').innerHTML = 'Negozio di smartphone'
 }
 
-function changeBackground() {
-  document.body.style.backgroundColor = 'red'
+function darkMode() {
+  document.body.style.backgroundColor = 'black'
+  document.body.style.color = 'white'
 }
 
 function toggleFooter() {
@@ -12,7 +13,7 @@ function toggleFooter() {
 }
 
 function largeLinks() {
-  const links = document.querySelectorAll('a')
+  const links = document.getElementsByClassName('links')
 
   for (let i = 0; i < links.length; i++) {
     links[i].classList.toggle('accessed')

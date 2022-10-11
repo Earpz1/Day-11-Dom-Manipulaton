@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Smartphone Store</title>
   </head>
-  <body>
+  <body class="none">
     <div class="header">
       <h1 class="title" id="page-title">
         Smartphone Store
@@ -15,9 +15,14 @@
       <img
         src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png"
         onclick="changeTitle()"
-        class="languageFlag"
+        class="languageFlag" alt="Italian Flag"
       />
     </div>
+    <img
+    src="https://cdn-icons-png.flaticon.com/512/6714/6714978.png"
+    onclick="darkMode()"
+    class="darkModeIcon" alt="Dark mode"
+  />
     <div class="phone-container">
       <table class="phones">
         <th>Phone</th>
@@ -29,10 +34,10 @@
         <th><a href="#" onclick="showImage()">Images</a></th>
         <tr>
           <td>iPhone 14</td>
-          <td class="price">£1059</td>
+          <td class="price">£1059</b></td>
           <td>Apple iPhone 14 plus (256GB)</td>
           <td>
-            <a id="links" href="http://shorturl.at/wBR08">
+            <a class="links" href="http://shorturl.at/wBR08">
               Amazon Link
             </a>
             <br />
@@ -48,7 +53,7 @@
           <td>Google Pixel 7 Pro</td>
           <td class="price">£849</td>
           <td>Google Pixel 7 Pro with 128GB inbuilt memory</td>
-          <td><a href="http://shorturl.at/MPRT8">Amazon Link</a></td>
+          <td><a class="links" href="http://shorturl.at/MPRT8">Amazon Link</a></td>
           <td>
             <img
               src="https://m.media-amazon.com/images/I/711GOHSF5wL._AC_SL1500_.jpg"
@@ -62,7 +67,7 @@
           <td>
             Sony Xperia 5 IV with free LinkBuds S (black) Limited time Bundle
           </td>
-          <td><a href="http://shorturl.at/KQVW4">Amazon Link</a></td>
+          <td><a class="links"href="http://shorturl.at/KQVW4">Amazon Link</a></td>
           <td>
             <img
               src="https://m.media-amazon.com/images/I/71bgXyOeDyL._AC_SL1500_.jpg"
@@ -77,7 +82,7 @@
             Samsung Galaxy Z Fold4 5G Mobile Phone Sim Free Android Folding
             Smartphone 512GB, Beige, 3 Year Manufacturer Warranty, UK Version
           </td>
-          <td><a href="http://shorturl.at/hktCE">Amazon Link</a></td>
+          <td><a class="links" href="http://shorturl.at/hktCE">Amazon Link</a></td>
           <td>
             <img
               src="https://m.media-amazon.com/images/I/71HyNLk2OGL._AC_SL1500_.jpg"
@@ -93,7 +98,7 @@
             Dotdisplay, Snapdragon 680, 50MP AI Quad Camera, 5000mAh, Twilight
             Blue (UK Version + 2 Years Warranty) with Alexa Hands-Free
           </td>
-          <td><a href="http://shorturl.at/bhsKO">Amazon Link</a></td>
+          <td><a class="links"href="http://shorturl.at/bhsKO">Amazon Link</a></td>
           <td>
             <img
               src="https://m.media-amazon.com/images/I/51-pDF-OlPL._AC_SL1001_.jpg"

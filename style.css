@@ -20,6 +20,11 @@
   height: 100vh;
 }
 
+.darkMode body {
+  background-color: black;
+  color: white;
+}
+
 .comment-container {
   position: absolute;
   top: 0;
@@ -43,6 +48,17 @@
 .languageFlag {
   width: 40px;
   height: 20px;
+  cursor: pointer;
+}
+
+.darkModeIcon {
+  position: absolute;
+  top: 31px;
+  bottom: 0;
+  left: 1280px;
+  right: 0;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 
@@ -106,4 +122,9 @@ th a {
 
 .hideImage {
   visibility: hidden;
+}
+
+.price {
+  font-size: 1.3rem;
+  font-weight: 700;
 }
